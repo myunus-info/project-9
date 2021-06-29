@@ -9,7 +9,7 @@ const HeaderInner = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light main-menu-inner">
       <div className="container">
-        <a className="navbar-brand" href="#navbar">
+        <a className="navbar-brand" href="#home">
           <div className="logo-img">
             <img src={logo2} alt="" />
           </div>
