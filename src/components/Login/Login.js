@@ -15,7 +15,7 @@ import firebaseConfig from "../../firebase.config";
 if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 
 const Login = () => {
-  const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+  const [, setLoggedInUser] = useContext(UserContext);
 
   const [newUser, setNewUser] = useState(false);
   const history = useHistory();

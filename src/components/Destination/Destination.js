@@ -4,7 +4,7 @@ import { UserContext } from "../../App";
 import HeaderInner from "../HeaderInner/HeaderInner";
 
 const Destination = () => {
-  const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+  const [loggedInUser] = useContext(UserContext);
   return (
     <div>
       <div className="last-header-border">
