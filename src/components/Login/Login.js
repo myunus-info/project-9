@@ -5,13 +5,13 @@ import map from "../../img/map.png";
 import ticket from "../../img/tickets.png";
 import "./Login.css";
 import google from "../../img/google.png";
+import { UserContext } from "../../App";
+import { useHistory, useLocation } from "react-router-dom";
 
 // firebase
 import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from "../../firebase.config";
-import { UserContext } from "../../App";
-import { useHistory, useLocation } from "react-router-dom";
 if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 
 const Login = () => {
