@@ -1,0 +1,149 @@
+.form-wrapper {
+  border: 1px solid lightgray;
+  text-align: center;
+  margin-top: 55px;
+  padding: 25px 0 35px;
+}
+
+.form-wrapper h1 {
+  text-align: left;
+  margin: 35px 0 25px 48px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 29px;
+}
+
+.alternative {
+  color: #000;
+  font-size: 16;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.alternative::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 1px;
+  left: 80px;
+  top: 11px;
+  border: 1px solid lightgray;
+}
+.alternative::before {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 1px;
+  right: 80px;
+  top: 11px;
+  border: 1px solid lightgray;
+}
+.google-icon img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.icon-text {
+  margin-left: 110px;
+  padding-top: 11px;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.google-icon {
+  width: 480px;
+  border-radius: 25px;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+.check-box {
+  margin: 0 47px;
+}
+.check-label {
+  color: #555;
+  padding-left: 7px;
+  font-size: 15;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+}
+.form-wrapper .input-field {
+  width: 85%;
+  color: #000;
+  font-size: 16;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  margin-bottom: 35px;
+}
+.form-wrapper .bottom-para {
+  color: #000;
+  font-size: 16;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  margin-top: 11px;
+}
+.form-wrapper .bottom-para .signup {
+  color: #ff6e40;
+  font-size: 16;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.check-text p {
+  color: #ff6e40;
+  font-size: 16;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+form input {
+  display: inline-block;
+  /* width: 50%; */
+  padding: 10px 0;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: 0;
+  /* margin: 0 auto; */
+}
+
+.submit-button {
+  background: #ff6e40;
+  width: 85%;
+  color: #fff;
+  font-size: 16;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  margin-top: 35px;
+}
+
+.error {
+  color: crimson;
+  font-size: 16;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  display: block;
+}

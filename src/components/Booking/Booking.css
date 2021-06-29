@@ -1,0 +1,46 @@
+.bookigForm {
+  margin-top: 45px;
+  background-color: #eee;
+  padding: 35px 20px;
+  border-radius: 10px;
+}
+
+.header-border {
+  border-bottom: 1px solid lightgray;
+}
+.bookigForm label {
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.bookigForm .input-field {
+  margin-bottom: 25px;
+}
+.bookigForm input {
+  margin-bottom: 25px;
+  border: none;
+  padding: 10px 10px;
+}
+.bookigForm .bg-color {
+  background-color: #ff6e40;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.show-map {
+  margin-top: 40px;
+}
+#search-location {
+  text-align: center;
+  color: red;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  line-height: 25px;
+}

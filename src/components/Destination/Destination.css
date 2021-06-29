@@ -1,0 +1,46 @@
+.location-info {
+  background: #ff6e40;
+  color: #fff;
+  padding-left: 55px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+.location-info li {
+  color: #fff;
+  line-height: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.location-info li:first-child::after {
+  position: absolute;
+  content: "";
+  left: -17px;
+  top: 25px;
+  width: 0px;
+  height: 48px;
+  border: 1px solid white;
+}
+
+.tickets-info img {
+  width: 80px;
+}
+.tickets-info li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  line-height: 80px;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+
+.last-header-border {
+  border-bottom: 1px solid lightgray;
+}

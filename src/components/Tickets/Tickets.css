@@ -1,0 +1,128 @@
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.card1 {
+  background-image: linear-gradient(to right bottom, #5061fb, #8f4cfb);
+}
+.card2 {
+  background-image: linear-gradient(to right bottom, #fb8350, #fb4c8b);
+}
+.card3 {
+  background-image: linear-gradient(to right bottom, #5061fb, #4cfb73);
+}
+.card4 {
+  background-image: linear-gradient(to right bottom, #fb50a2, #8f4cfb);
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  margin: 300px 10px 320px;
+  border-radius: 15px;
+  padding: 35px 0 35px 35px;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 44px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.banner button {
+  background-image: linear-gradient(to right, #ff8933, #ffbe16);
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 13px 25px;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 35px;
+}
+
+.banner h3 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  line-height: 73px;
+  text-transform: uppercase;
+  border-top: 1px dashed #fff;
+  padding-top: 15px;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: 15px 10px 15px;
+    border-radius: 15px;
+    padding: 35px 0 35px 35px;
+  }
+
+  .common-card {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: 15px 10px 15px;
+    border-radius: 15px;
+    padding: 35px 0 35px 35px;
+  }
+
+  .common-card {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: 15px 10px 15px;
+    border-radius: 15px;
+    padding: 35px 0 35px 35px;
+  }
+
+  .common-card {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 575px) {
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    margin: 15px 10px 15px;
+    border-radius: 15px;
+    padding: 35px 0 35px 35px;
+  }
+
+  .common-card {
+    padding-top: 100px;
+  }
+}
