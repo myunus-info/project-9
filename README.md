@@ -7,5 +7,6 @@ Key features of my website:
 4. Implemented Context API
 5. Used React Hook Form
 6. Used bootstrap for responsiveness
-7. Firebase authentication
-8. Shared authentication and private routing
+7. Implemented media queries along with bootstrap 0.5+
+8. Firebase authentication
+9. Shared authentication and private routing
